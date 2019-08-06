@@ -12,7 +12,6 @@ const config = {
 
 class Firebase {
   constructor() {
-    console.log("teste");
     app.initializeApp(config);
 
     this.auth = app.auth();
